@@ -1,0 +1,117 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  padding: 10px;
+  background-color: rgb(229, 224, 226);
+}
+
+.nav{
+  background-color: rgba(138, 129, 133, 0.6);
+  border: 1px solid black;
+}
+
+.nav-link{
+  color:black;
+}
+
+.nav-link:hover{
+  color:white;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+}
+
+.details_link {
+  color: black;
+}
+
+.inactive-cursor {
+  cursor: default;
+}
+
+.details-container {
+  background-color: rgba(138, 129, 133, 0.6); 
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+  padding: 20px; 
+  border-radius: 10px;
+}
+
+.listing-image-active {
+  max-width: 400px; 
+  max-height: 400px;
+}
+
+.listing-image {
+  width: 100%;
+  max-height: 60vh;
+}
+
+.bidders-list {
+  list-style-type: none;
+}
+
+.submit-button {
+  display: inline-block; 
+  margin-top: 10px;
+}
+
+.comment-control {
+  width: 40%; 
+  vertical-align: top;
+}
+
+.comment-list {
+  border:1px solid lightgray; 
+  margin: 10px; 
+  padding: 10px; 
+  border-radius: 10px; 
+  width: 40%;
+}
+
+.search-container {
+  margin: auto;
+}
+
+.search-input {
+  width: 80%; 
+  float: left; 
+  border-top-left-radius: 20px; 
+  border-bottom-left-radius: 20px; 
+  background: whitesmoke;
+}
+
+.search-button {
+  width: 20%; 
+  float: left; 
+  border: none; 
+  background: transparent; 
+  height: 40px;
+}
+
+.nav-item-icon {
+  margin-right: 10px;
+}
